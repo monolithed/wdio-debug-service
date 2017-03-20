@@ -1,6 +1,6 @@
 {
 	"name": "wdio-debug-service",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "WebDriverIO service to enable debugging mode on a specific port",
 	"keywords": ["webdriver", "webdriverio", "debug"],
 	"author": "Alexander Abashkin <a.abashkin@corp.mail.ru>",

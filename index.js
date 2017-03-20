@@ -4,8 +4,8 @@ module.exports = {
 	before (config) {
 		let { debug } = browser.options;
 
-		if (typeof debug === 'number') {
-			console.log('Paused in debugger on port', debug - 1);
+		if (debug) {
+			console.log('Paused in debugger on port', process.debugPort);
 
 			/** The first breakpoint should be skipped */
 			debugger;
