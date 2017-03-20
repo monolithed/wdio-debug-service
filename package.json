@@ -1,0 +1,25 @@
+{
+	"name": "wdio-debug-service",
+	"version": "0.0.1",
+	"description": "WebDriverIO debug service",
+	"author": "Alexander Abashkin <a.abashkin@corp.mail.ru>",
+	"license": "MIT",
+
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:monolithed/wdio-debug-service.git"
+	},
+
+	"engines": {
+		"node": ">=4.8",
+		"npm": ">=3"
+	},
+
+	"dependencies": {
+		"minimist": "^1.2.0"
+	},
+
+	"peerDependencies": {
+		"webdriverio": "^4.x"
+	}
+}
