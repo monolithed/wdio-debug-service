@@ -7,7 +7,7 @@ module.exports = {
 		if (typeof debug === 'number') {
 			console.log('Paused in debugger on port', debug - 1);
 
-			/** The first breakpoint you'd to skip */
+			/** The first breakpoint should be skipped */
 			debugger;
 		}
 	}
